@@ -1,4 +1,4 @@
-let numberForEmail = Math.floor((Math.random() * 1000) + 1);
+let numberForEmail = Math.floor((Math.random() * 10000) + 1);
 let emailPerson = `JohnSmith${numberForEmail}@mail.com`
 
 describe("test suite of shop site", () => {
